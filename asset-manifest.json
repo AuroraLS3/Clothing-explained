@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Clothing-explained/static/css/main.97cdb053.chunk.css",
+    "main.js": "/Clothing-explained/static/js/main.644cc868.chunk.js",
+    "main.js.map": "/Clothing-explained/static/js/main.644cc868.chunk.js.map",
+    "runtime-main.js": "/Clothing-explained/static/js/runtime-main.5b2adb87.js",
+    "runtime-main.js.map": "/Clothing-explained/static/js/runtime-main.5b2adb87.js.map",
+    "static/css/2.150d169a.chunk.css": "/Clothing-explained/static/css/2.150d169a.chunk.css",
+    "static/js/2.4129b3e3.chunk.js": "/Clothing-explained/static/js/2.4129b3e3.chunk.js",
+    "static/js/2.4129b3e3.chunk.js.map": "/Clothing-explained/static/js/2.4129b3e3.chunk.js.map",
+    "static/js/3.718948d8.chunk.js": "/Clothing-explained/static/js/3.718948d8.chunk.js",
+    "static/js/3.718948d8.chunk.js.map": "/Clothing-explained/static/js/3.718948d8.chunk.js.map",
+    "index.html": "/Clothing-explained/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/Clothing-explained/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.97cdb053.chunk.css.map": "/Clothing-explained/static/css/main.97cdb053.chunk.css.map",
+    "static/js/2.4129b3e3.chunk.js.LICENSE.txt": "/Clothing-explained/static/js/2.4129b3e3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b2adb87.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.4129b3e3.chunk.js",
+    "static/css/main.97cdb053.chunk.css",
+    "static/js/main.644cc868.chunk.js"
+  ]
+}
