@@ -1,0 +1,62 @@
+.App {
+    padding: 2rem;
+}
+
+body {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 1000px) {
+    .gallery .card {
+        margin: 1rem;
+        width: calc(
+            100% / 6 - 1.7rem
+        ); /* 2rem - 0.2rem from the removed margins */
+    }
+
+    .gallery .card:first-child,
+    .gallery .card:nth-child(6n + 1) {
+        margin-left: 0 !important;
+    }
+
+    .gallery .card:nth-child(6n) {
+        margin-right: 0 !important;
+    }
+
+    .gallery .card-body {
+        padding: 0.4rem 0.7rem 0.5rem 0.7rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    body {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .gallery .card {
+        margin: 1rem;
+        /* 2rem - 0.4rem from the removed margins */
+        width: calc(20% - 1.6rem);
+    }
+
+    .gallery .card:first-child,
+    .gallery .card:nth-child(5n + 1) {
+        margin-left: 0 !important;
+    }
+
+    .gallery .card:nth-child(5n) {
+        margin-right: 0 !important;
+    }
+
+    .gallery .card-body {
+        padding: 0.4rem 0.7rem 0.5rem 0.7rem;
+    }
+}
